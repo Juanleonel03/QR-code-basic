@@ -1,0 +1,64 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+*{
+    font-family:'Prompt', sans-serif;
+    --white:#fff;
+    --gray:rgb(123,136,157);
+    --Ziggurat:rgb(173, 206, 218, 1);
+    --span-color:rgb(13, 63, 82, 1);
+}
+/* style reset */
+body{
+    background-color: var(--Ziggurat);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* content style */
+.content { 
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+    height: 502px;
+    margin: 80px auto;
+    padding: 20px;
+    font-size: 14px; 
+    text-align: center;
+    border-radius: 12px;
+    background-color: var(--white);
+ }
+/* images content style */
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    height: 293px;
+    margin: 0 auto;
+    background-color: var(--gray);
+    border-radius: 12px;
+}
+img{
+    width:165px ;
+    height: 161px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto 0 auto ;
+    width: 281px;
+    align-items: center;
+    text-align: center;
+}
+
+.description p{
+    font-size: 15px;
+    margin-top: -5px ;
+}
+.description p span{
+    color: var(--span-color);
+}
